@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container-header">
+            <h1>Trivia</h1>
+            <a href="../index.html"><p>Salir</p></a>
+            <a href="" class="active"><p>Reiniciar</p></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 id="totalQuestion">Preguntas: 5/10</h3>
+       
+    </div>
+
+    <div class="container" id="QuestionOne">
+        <div class="card">
+            <h2>¿Cuántos departamentos tiene Colombia?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(1, true)" class="content-answer" id="answerOneGood">32 departamentos</button>
+                <button onclick="answeredQuestion(1, false)" class="content-answer" id="answerOneWrong">28 deparatamentos</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTwo">
+        <div class="card">
+            <h2>¿Cuántas regiones tiene Colombia?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(2, true)" class="content-answer" id="answerTwoGood">6 regiones</button>
+                <button onclick="answeredQuestion(2, false)" class="content-answer" id="answerTwoWrong">5 regiones</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionThree">
+        <div class="card">
+            <h2>¿Cuál es la capital de Colombia?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(3, false)" class="content-answer" id="answerThreeWrong">Medellín</button>
+                <button onclick="answeredQuestion(3, true)" class="content-answer" id="answerThreeGood">Bogota</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionFour">
+        <div class="card">
+            <h2>¿Cuál es la flor nacional?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(4, true)" class="content-answer" id="answerFourGood">Orquídea</button>
+                <button onclick="answeredQuestion(4, false)" class="content-answer" id="answerFourWrong">Frailejón</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionFive">
+        <div class="card">
+            <h2>¿Cuál es el ave nacional?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(5, false)" class="content-answer" id="answerFiveWrong">Guacamaya</button>
+                <button onclick="answeredQuestion(5, true)" class="content-answer" id="answerFiveGood">Cóndor</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionSix">
+        <div class="card">
+            <h2>¿Cúando fue la batalla de Boyacá?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(6, false)" class="content-answer" id="answerSixWrong">20 de julio de 1810</button>
+                <button onclick="answeredQuestion(6, true)" class="content-answer" id="answerSixGood">7 de agosto de 1819</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionSeven">
+        <div class="card">
+            <h2>¿Cuántos pueblos indigenas hay en Colombia?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(7, true)" class="content-answer" id="answerSevenGood">87 pueblos</button>
+                <button onclick="answeredQuestion(7, false)" class="content-answer" id="answerSevenWrong">90 pueblos</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionEight">
+        <div class="card">
+            <h2>¿Colombia va al mundial?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(8, false)" class="content-answer" id="answerEightWrong">Si va</button>
+                <button onclick="answeredQuestion(8, true)" class="content-answer" id="answerEightGood">No va</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionNine">
+        <div class="card">
+            <h2>¿En que fecha Colombia ganó una copa America?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(9, true)" class="content-answer" id="answerNineGood">29 de julio del 2001</button>
+                <button onclick="answeredQuestion(9, false)" class="content-answer" id="answerNineWrong">30 de agosto del 2001</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTen">
+        <div class="card">
+            <h2>¿Cúal única categoria de seleccionde fútbol en llegar a la final de un mundial?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(10, true)" class="content-answer" id="answerTenGood">Sub 17 femenino</button>
+                <button onclick="answeredQuestion(10, false)" class="content-answer" id="answerTenWrong">sub 20 femenino</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Result">
+        <div class="card">
+         <h3>Puntaje Final</h3>
+         <h4 id="winOrLost"></h4>
+         <h4 id="finalResult"></h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="spinner"></div>
+    </div>
+    <script src="../assets/js/logic.js"></script>
+</body>
+</html>

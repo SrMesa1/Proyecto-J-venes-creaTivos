@@ -1,0 +1,28 @@
+.card {
+    padding: 1rem;
+    margin: 2rem;
+    margin-bottom: 1px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-result-good {
+    padding: .5rem;
+    margin: 1rem;
+    background-color: rgba(175, 248, 175, 0.705);
+    border: 1px solid rgb(10, 126, 10);
+    color: rgb(0, 117, 25);
+    border-radius: 5px;
+    width: 90%;
+}
+
+.card-result-wrong {
+    padding: .5rem;
+    margin: 1rem;
+    background-color: rgba(248, 175, 175, 0.705);
+    border: 1px solid rgb(126, 18, 10);
+    color: rgb(117, 4, 0);
+    border-radius: 5px;
+    width: 90%;
+}

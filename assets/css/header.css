@@ -1,0 +1,36 @@
+.container-header {
+    overflow: hidden;
+    background-color: #46464633;
+    padding: 5px 5px;  
+}
+
+.container-header h1 {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-header a {
+    float: right;
+    display: flex;
+    text-align: center;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.container-header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container-header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
