@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/argentina.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Argentina</title>
+</head>
+<body>
+    <nav>
+        <div class="container-header">
+            <h1>LatínTrivia</h1>
+            <a href="../index.html"><p>Salir</p></a>
+            <a href="" class="active"><p>Reiniciar</p></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 id="totalQuestion">Preguntas: 5/10</h3>
+       
+    </div>
+
+    <div class="container" id="QuestionOne">
+        <div class="card">
+            <h2>¿Cuál es el deporte nacional de Argentina?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(1, true)" class="content-answer" id="answerOneGood">Pato</button>
+                <button onclick="answeredQuestion(1, false)" class="content-answer" id="answerOneWrong">Fútbol</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTwo">
+        <div class="card">
+            <h2>¿Cuál superficie de Argentina?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(2, true)" class="content-answer" id="answerTwoGood">2.766.890 km<sup>2</sup> </button>
+                <button onclick="answeredQuestion(2, false)" class="content-answer" id="answerTwoWrong">2.766.891 km<sup>2</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionThree">
+        <div class="card">
+            <h2>¿Cuánto mide el volcan Nevado del Salado?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(3, false)" class="content-answer" id="answerThreeWrong">6892 metros</button>
+                <button onclick="answeredQuestion(3, true)" class="content-answer" id="answerThreeGood">6891 metros</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionFour">
+        <div class="card">
+            <h2>¿De qué palabra viene el nombre de argentina?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(4, true)" class="content-answer" id="answerFourGood">Argentum</button>
+                <button onclick="answeredQuestion(4, false)" class="content-answer" id="answerFourWrong">Argentiam</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionFive">
+        <div class="card">
+            <h2>¿Qué significa Argentum?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(5, false)" class="content-answer" id="answerFiveWrong">Platino</button>
+                <button onclick="answeredQuestion(5, true)" class="content-answer" id="answerFiveGood">Plata</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionSix">
+        <div class="card">
+            <h2>¿De donde es el papa Francisco?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(6, false)" class="content-answer" id="answerSixWrong">Mendoza</button>
+                <button onclick="answeredQuestion(6, true)" class="content-answer" id="answerSixGood">Buenos Aires</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionSeven">
+        <div class="card">
+            <h2>¿Cuál es la bebida nacional?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(7, true)" class="content-answer" id="answerSevenGood">Mate</button>
+                <button onclick="answeredQuestion(7, false)" class="content-answer" id="answerSevenWrong">Aromatica</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionEight">
+        <div class="card">
+            <h2>¿Cuál es la mejor universidad?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(8, false)" class="content-answer" id="answerEightWrong">Universidad Nacional de la Plata</button>
+                <button onclick="answeredQuestion(8, true)" class="content-answer" id="answerEightGood">Universidad de Buenos Aires</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionNine">
+        <div class="card">
+            <h2>¿Donde queda ubicada la montaña Aconcagua?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(9, true)" class="content-answer" id="answerNineGood">Mendoza</button>
+                <button onclick="answeredQuestion(9, false)" class="content-answer" id="answerNineWrong">La Plata</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTen">
+        <div class="card">
+            <h2>¿Cuál es el baile cultural de Argentina?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(10, true)" class="content-answer" id="answerTenGood">Tango</button>
+                <button onclick="answeredQuestion(10, false)" class="content-answer" id="answerTenWrong">Mambo</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Result">
+        <div class="card">
+         <h3>Puntaje Final</h3>
+         <h4 id="winOrLost"></h4>
+         <h4 id="finalResult"></h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="spinner"></div>
+    </div>
+    <script src="../assets/js/logic.js"></script>
+</body>
+</html>

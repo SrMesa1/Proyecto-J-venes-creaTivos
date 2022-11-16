@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/brasil.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Brasil</title>
+</head>
+<body>
+    <nav>
+        <div class="container-header">
+            <h1>LatínTrivia</h1>
+            <a href="../index.html"><p>Salir</p></a>
+            <a href="" class="active"><p>Reiniciar</p></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 id="totalQuestion">Preguntas: 5/10</h3>
+       
+    </div>
+
+    <div class="container" id="QuestionOne">
+        <div class="card">
+            <h2>¿Con cuátos paises comparte fronteras Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(1, true)" class="content-answer" id="answerOneGood">9 paises</button>
+                <button onclick="answeredQuestion(1, false)" class="content-answer" id="answerOneWrong">7paises</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTwo">
+        <div class="card">
+            <h2>¿Cuál es la capital de Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(2, true)" class="content-answer" id="answerTwoGood">Brasilia</button>
+                <button onclick="answeredQuestion(2, false)" class="content-answer" id="answerTwoWrong">Rio de Janeiro</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionThree">
+        <div class="card">
+            <h2>¿Cuál es el idioma oficial de Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(3, false)" class="content-answer" id="answerThreeWrong">Español</button>
+                <button onclick="answeredQuestion(3, true)" class="content-answer" id="answerThreeGood">Portugues</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionFour">
+        <div class="card">
+            <h2>¿Cuántas veces ha ganado la copa del mundo Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(4, true)" class="content-answer" id="answerFourGood">5 veces</button>
+                <button onclick="answeredQuestion(4, false)" class="content-answer" id="answerFourWrong">6 veces</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionFive">
+        <div class="card">
+            <h2>¿Cuántas regiones tiene Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(5, false)" class="content-answer" id="answerFiveWrong">7 regiones</button>
+                <button onclick="answeredQuestion(5, true)" class="content-answer" id="answerFiveGood">5 regiones</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionSix">
+        <div class="card">
+            <h2>¿Cuál es el plato nacional de Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(6, false)" class="content-answer" id="answerSixWrong">La Francesinha</button>
+                <button onclick="answeredQuestion(6, true)" class="content-answer" id="answerSixGood">La feijoada</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionSeven">
+        <div class="card">
+            <h2>¿Cuál es el baile mas famoso de Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(7, true)" class="content-answer" id="answerSevenGood">Samba</button>
+                <button onclick="answeredQuestion(7, false)" class="content-answer" id="answerSevenWrong">Tango</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionEight">
+        <div class="card">
+            <h2>¿Cuál es el punto mas alto de Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(8, false)" class="content-answer" id="answerEightWrong">El monte Corcovado</button>
+                <button onclick="answeredQuestion(8, true)" class="content-answer" id="answerEightGood">Pico da Neblina</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionNine">
+        <div class="card">
+            <h2>¿Cuál es el apellido mas comun en Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(9, true)" class="content-answer" id="answerNineGood">Silva</button>
+                <button onclick="answeredQuestion(9, false)" class="content-answer" id="answerNineWrong">Dos Santos</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTen">
+        <div class="card">
+            <h2>¿Cúal es el ave nacional de Brasil?</h2>
+            <div class="container-button">
+                <button onclick="answeredQuestion(10, true)" class="content-answer" id="answerTenGood">Zorzal Colorado</button>
+                <button onclick="answeredQuestion(10, false)" class="content-answer" id="answerTenWrong">Tucan</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Result">
+        <div class="card">
+         <h3>Puntaje Final</h3>
+         <h4 id="winOrLost"></h4>
+         <h4 id="finalResult"></h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="spinner"></div>
+    </div>
+    <script src="../assets/js/logic.js"></script>
+</body>
+</html>
