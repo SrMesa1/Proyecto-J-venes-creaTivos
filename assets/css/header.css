@@ -34,3 +34,7 @@
     background-color: dodgerblue;
     color: white;
 }
+
+.navbar-menu {
+    display: block !important;
+}

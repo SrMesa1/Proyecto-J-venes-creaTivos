@@ -42,3 +42,32 @@ button:hover{
     border: 2px solid rgb(93, 252, 252);
 }
 
+.link_menu {
+    float: right;
+    display: flex;
+    text-align: center;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.link_menu a:hover {
+    background-color: green;
+    color: black;
+}
+
+.button_menu {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

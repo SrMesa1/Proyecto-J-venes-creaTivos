@@ -66,6 +66,7 @@ function returnIdAnswer(answer) {
 
 function calculateScore(answer) {
     answer ? userScore += 5 : userScore -= 2.5;
+    console.log(userScore);
     positionQuestion++;
 }
 
