@@ -1,0 +1,161 @@
+@media (max-width: 400px) {
+    .navbar-menu {
+        width: 200px;
+      }
+
+      .navbar-menu a{
+        color: black;
+        display: block; 
+        padding: 12px; 
+        text-decoration: none; 
+      }
+    
+      .navbar-menu a:hover{
+        background-color: #ccc;
+      }
+
+      .vertical-menu a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+      body{
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+        background-position-x: -200px;
+      }
+}
+
+@media (min-width: 1368px){
+    .container-header {
+        overflow: hidden;
+        background-color: #46464633;
+        padding: 25px 25px;  
+    }
+    
+    .container-header h1 {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        font-size: 50px;
+    }
+    
+    .container-header a {
+        float: right;
+        display: flex;
+        text-align: center;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 25px; 
+        line-height: 50px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+    
+    .container-header a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .container-header a.active {
+        background-color: dodgerblue;
+        color: white;
+    }
+    
+    .card {
+        padding: 2rem;
+        margin: rem;
+        margin-bottom: 2px;
+        border: 2px solid green;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .card-result-good {
+        padding: .10rem;
+        margin: 2rem;
+        background-color: rgba(175, 248, 175, 0.705);
+        border: 2px solid rgb(10, 126, 10);
+        color: rgb(0, 117, 25);
+        border-radius: 10px;
+        width: 90%;
+    }
+    
+    .card-result-wrong {
+        padding: .10rem;
+        margin: 2rem;
+        background-color: rgba(248, 175, 175, 0.705);
+        border: 2px solid rgb(126, 18, 10);
+        color: rgb(117, 4, 0);
+        border-radius: 10px;
+        width: 90%;
+    }
+    .link_menu {
+        float: right;
+        display: flex;
+        text-align: center;
+        color: black;
+        text-align: center;
+        padding: 50px;
+        text-decoration: none;
+        font-size: 216px; 
+        line-height: 50px;
+        border-radius: 8px;
+        margin: 10px;
+    }
+    
+    .link_menu a:hover {
+        background-color: green;
+        color: black;
+    }
+    
+    .button_menu {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 40px 84px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 36px;
+    }
+
+    .navbar-container h1{
+        font-size: 66px;
+    }
+
+    .navbar-container h4{
+        font-size: 30px;
+    }
+
+    .navbar-menu {
+        width: 200px;
+      }
+
+          .navbar-menu a{
+        color: black;
+        display: block; 
+        padding: 12px; 
+        text-decoration: none; 
+      }
+
+      body{
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+      }
+
+      h4, h3{
+        font-size: 36px;
+      }
+    
+}
+
+
+
+
+
